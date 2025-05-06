@@ -23,9 +23,12 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.mybg{
+    object-fit:cover;
+    background-size:cover;
+}
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
 }
 
 @keyframes App-logo-spin {
