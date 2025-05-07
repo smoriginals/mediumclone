@@ -32,7 +32,7 @@
     background-size:cover;
     background-repeat:no-repeat;*/
 /*}*/
-.sbg {
+.home-bg {
     background-image: url('./Assets/home.jpg');
     background-size:cover;
     background-position:center;
@@ -50,7 +50,14 @@
     opacity:70%;
     border-radius:0.5rem;
 }
-
+.create{
+    text-decoration:none;
+    font-weight:600;
+}
+.login-dialogue{
+    background-color:lightgray;
+    width:80%;
+}
 .App-link {
     color: #61dafb;
 }

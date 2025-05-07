@@ -4,23 +4,32 @@ import background from '../Assets/home.jpg'
 export default function Homepage() {
     return (
         <>
-            <div className='sbg'>
-                <div className="card text-center">
+            <div className='home-bg'>
+                <div className="card text-center login-dialogue">
                     <div className="card-header">
-                        Login To SMORIGNALS
+                        Login
                     </div>
-                    <div className='asdf'>
-                        <div className="input-group flex-nowrap m-2 ">
-                            <span className="input-group-text" id="addon-wrapping"><i className="fa-solid fa-user"></i></span>
-                            <input type="text" className="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping" />
+                    <div className="card-body">
+                        <div className="input-group mb-3">
+                            <div className="input-group-text">
+                                <i className="fa-solid fa-user"></i>
+                            </div>
+                            <input type="text" className="form-control" aria-label="Text input with checkbox" placeholder='@Username'/>
                         </div>
-                        <div className="input-group flex-nowrap m-2 ">
-                            <span className="input-group-text" id="addon-wrapping"><i className="fa-solid fa-lock"></i></span>
-                            <input type="text" className="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping" />
+
+                        <div className="input-group">
+                            <div className="input-group-text">
+                                <i className="fa-solid fa-lock"></i>
+                            </div>
+                            <input type="text" className="form-control" aria-label="Text input with radio button" placeholder='Password'/>
+                        </div>
+                        
+                        <div className="d-grid gap-2">
+                            <button className="btn btn-success mt-4" type="button"><b>Login</b></button>
                         </div>
                     </div>
                     <div className="card-footer text-body-secondary">
-                        2 days ago
+                        Don't have an account?<a href='#' className='create' target='main'>  Create one</a>
                     </div>
                 </div>
             </div>
