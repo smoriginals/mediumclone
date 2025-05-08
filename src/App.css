@@ -32,6 +32,11 @@
     background-size:cover;
     background-repeat:no-repeat;*/
 /*}*/
+
+.n-bg{
+    background-color:darkgray;
+    
+}
 .home-bg {
     background-image: url('./Assets/home.jpg');
     background-size:cover;
