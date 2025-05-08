@@ -3,6 +3,7 @@ import Navbar from './Navbar';
 import background from '../Assets/hom.gif';
 import rog from '../Assets/rog.gif';
 import nanami from '../Assets/nan.jpg';
+import Footer from './Footer';
 export default function Home() {
     return (
         <>
@@ -44,6 +45,7 @@ export default function Home() {
                 </div>
                 
             </div>
+            <Footer/>
         </>
     )
 }

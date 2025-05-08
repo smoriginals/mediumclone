@@ -55,6 +55,14 @@
     opacity:70%;
     border-radius:0.5rem;
 }
+.dp
+{
+    height:100px;
+    width:100px;
+    border-radius:100px;
+}
+
+
 .create{
     text-decoration:none;
     font-weight:600;
