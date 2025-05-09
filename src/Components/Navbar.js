@@ -33,7 +33,7 @@ export default function Navbar() {
                                 <a className="nav-link disabled" aria-disabled="true">@Username</a>
                             </li>
                         </ul>
-                        <form className="d-flex justify-content-center align-items-center gap-2 flex-nowrap" role="search">
+                        <form className="d-flex justify-content-center align-items-center gap-2 flex-nowrap">
                             {/*Handle on click of this btn*/}
                             <button className='btn p-0 border-0 bg-transparent'>
                                 <i className="fa-regular fa-circle-user fs-2 cursor-pointer"/>

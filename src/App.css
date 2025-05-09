@@ -55,17 +55,34 @@
     opacity:70%;
     border-radius:0.5rem;
 }
-.dp
+.user-pic
 {
     height:100px;
     width:100px;
     border-radius:100px;
+    object-fit:cover;
+    background-color:gray;
+   
 }
 
+.profile-pic{
+    height:100px;
+    width:100px;
+    border-radius:100%;
+    object-fit:cover;
+    
+}
+.up-icon{
+    height:50px;
+    width:50px;
+    border-radius:100%;
+    object-fit:cover;
+    
+}
 
-.create{
-    text-decoration:none;
-    font-weight:600;
+.create {
+    text-decoration: none;
+    font-weight: 600;
 }
 .login-dialogue{
     background-color:lightgray;

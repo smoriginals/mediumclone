@@ -1,6 +1,9 @@
 import React from 'react';
 
 export default function Signup() {
+	const CreateUser = () => {
+		console.log('user created');
+	}
 	return (
 		<>
 			<div className='home-bg'>
@@ -52,7 +55,7 @@ export default function Signup() {
 
 
 						<div className="d-grid gap-2">
-							<button className="btn btn-primary mt-4" type="button"><b>Create</b></button>
+							<button className="btn btn-primary mt-4" type="button" onClick={CreateUser}><b>Create</b></button>
 						</div>
 					</div>
 					<div className="card-footer text-body-secondary">
