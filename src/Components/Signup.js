@@ -1,7 +1,8 @@
 import React from 'react';
-
+import { Link } from 'react-router-dom';
+import '../App.css'
 export default function Signup() {
-	const CreateUser = () => {
+	function CreateUser(){
 		console.log('user created');
 	}
 	return (
@@ -59,7 +60,7 @@ export default function Signup() {
 						</div>
 					</div>
 					<div className="card-footer text-body-secondary">
-						Already have an account?<a href='#' className='create' target='main'> Login</a>
+						Already have an account?<Link to='/Homepage' className='create'> Login</Link>
 					</div>
 				</div>
 			</div>

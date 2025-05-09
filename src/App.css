@@ -87,6 +87,7 @@
 .login-dialogue{
     background-color:lightgray;
     width:80%;
+    opacity:95%;
 }
 .App-link {
     color: #61dafb;

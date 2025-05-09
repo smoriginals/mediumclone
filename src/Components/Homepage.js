@@ -1,7 +1,14 @@
 import React from 'react';
 import '../App.css';
-import background from '../Assets/home.jpg'
+import { Link, useNavigate } from 'react-router-dom';
 export default function Homepage() {
+
+    const navigate = useNavigate();
+    function Home() {
+        console.log('redirect to main user home page');
+        navigate('/Home');
+    }
+
     return (
         <>
             <div className='home-bg'>
@@ -25,11 +32,11 @@ export default function Homepage() {
                         </div>
                         
                         <div className="d-grid gap-2">
-                            <button className="btn btn-success mt-4" type="button"><b>Login</b></button>
+                            <button className="btn btn-success mt-4" type="button" onClick={Home}><b>Login</b></button>
                         </div>
                     </div>
                     <div className="card-footer text-body-secondary">
-                        Don't have an account?<a href='#' className='create' target='main'>  Create one</a>
+                        Don't have an account?<Link to='/Signup' className='create'>  Create one</Link>
                     </div>
                 </div>
             </div>
