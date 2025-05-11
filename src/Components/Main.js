@@ -36,6 +36,7 @@ export default function Main() {
                             </div>
                             <div className="card-footer">
                                 <small className="text-body-secondary">Last updated 3 mins ago</small>
+                                {console.log('only for streak of a project')}
                             </div>
                         </div>
                     </div>
