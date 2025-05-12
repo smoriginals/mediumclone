@@ -1,9 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link,useNavigate } from 'react-router-dom';
 import '../App.css'
 export default function Signup() {
+	const navigate = useNavigate();
+
 	function CreateUser(){
-		console.log('user created');
+		navigate('/Homepage');	
 	}
 	return (
 		<>

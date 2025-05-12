@@ -41,7 +41,7 @@
     background-image: url('./Assets/home.jpg');
     background-size:cover;
     background-position:center;
-    background-color: red;
+    background-color: darkgray;
     height: 100vh;
     width: 100vw;
     display: flex;
@@ -79,7 +79,22 @@
     object-fit:cover;
     
 }
-
+.usico{
+    border:2px solid black;
+    border-radius:5px;
+    cursor:pointer;
+}
+.popup-box {
+    position: absolute; /* or absolute depending on your use */
+    top: 100%;
+    left: 82%;
+/*    transform: translateX(-85%);*/
+    z-index: 9;
+    background-color: whitesmoke;
+    opacity:95%;
+    padding: 1rem;
+    border-radius: 5px;
+}
 .create {
     text-decoration: none;
     font-weight: 600;

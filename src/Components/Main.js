@@ -2,6 +2,7 @@ import React from 'react';
 import background from '../Assets/hom.gif';
 import rog from '../Assets/rog.gif';
 import nanami from '../Assets/nan.jpg';
+import plusicon from '../Assets/addico.jpg';
 export default function Main() {
     return (
         <>
@@ -36,11 +37,14 @@ export default function Main() {
                             </div>
                             <div className="card-footer">
                                 <small className="text-body-secondary">Last updated 3 mins ago</small>
-                                {console.log('only for streak of a project')}
+
                             </div>
+                            
                         </div>
+                        <img src={plusicon} className="card-img-top usico my-5" title='Add Post' />
                     </div>
                 </div>
+
 
             </div>
         </>
