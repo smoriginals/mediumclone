@@ -5,7 +5,7 @@ export default function Signup() {
 	const navigate = useNavigate();
 
 	function CreateUser(){
-		navigate('/Homepage');	
+		navigate('/homepage');	
 	}
 	return (
 		<>
@@ -62,7 +62,7 @@ export default function Signup() {
 						</div>
 					</div>
 					<div className="card-footer text-body-secondary">
-						Already have an account?<Link to='/Homepage' className='create'> Login</Link>
+						Already have an account?<Link to='/homepage' className='create'> Login</Link>
 					</div>
 				</div>
 			</div>

@@ -6,7 +6,8 @@ export default function Footer() {
             <nav className="navbar bg-primary">
                 <div className="container">
                     <a className="navbar-brand" href="#">
-                        <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap" width="30" height="24"/>
+                        <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" title="Bootstrap Footer" />
+                        {/*//Add height width Optional...*/}
                     </a>
                 </div>
             </nav>

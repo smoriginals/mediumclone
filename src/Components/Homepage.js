@@ -5,7 +5,6 @@ export default function Homepage() {
 
     const navigate = useNavigate();
     
-
     return (
         <>
             <div className='home-bg'>
@@ -29,11 +28,11 @@ export default function Homepage() {
                         </div>
                         
                         <div className="d-grid gap-2">
-                            <button className="btn btn-success mt-4" type="button" onClick={()=>navigate('/Home')}><b>Login</b></button>
+                            <button className="btn btn-success mt-4" type="button" onClick={()=>navigate('/')}><b>Login</b></button>
                         </div>
                     </div>
                     <div className="card-footer text-body-secondary">
-                        Don't have an account?<Link to='/Signup' className='create'>  Create one</Link>
+                        Don't have an account?<Link to='/signup' className='create'>  Create one</Link>
                     </div>
                 </div>
             </div>

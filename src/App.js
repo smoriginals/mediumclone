@@ -9,12 +9,12 @@ import { Routes, Route } from 'react-router-dom';
 function App() {
     return (
         <>
-            
+           
             <Routes>
-                <Route excat path='/Signup' element={<Signup />} />
-                <Route excat path='/Homepage' element={<Homepage />} />
-                <Route excat path='/Home' element={<Home />} />
-                <Route excat path='/Profile' element={<Profile />} />
+                <Route path='/' element={<Home />} />
+                <Route path='/homepage' element={<Homepage />} />
+                <Route path='/signup' element={<Signup />} />
+                <Route path='/profile' element={<Profile />} />
             </Routes>
         </>
     );
