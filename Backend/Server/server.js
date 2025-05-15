@@ -1,12 +1,13 @@
-require('dotenv').config({ path: '../env.local' });
-
-const connection = require('./db');
+const connectionDB = require('./db');
 const express = require('express');
 
-connection();
+await connectionDB();
 
 const app = express();
-const port = process.env.PORT;
+const port =  5000;
+
+app.use(express.json());
+
 
 app.get('/', (req, res) => {
     res.send('Connected');
