@@ -1,5 +1,5 @@
+const connectDB = require('../Backend/Server/db'); // correct file path
 const express = require('express');
-const connectDB = require('./db'); // correct file path
 
 const app = express();
 const port = 5000;
