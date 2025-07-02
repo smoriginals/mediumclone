@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Backend",
+    "\\Backend\\ContextAPI",
+    "\\src\\Components"
   ],
+  "SelectedNode": "\\Backend\\ContextAPI\\contextapi.js",
   "PreviewInSolutionExplorer": false
 }
