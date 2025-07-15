@@ -2,7 +2,7 @@
 import { useNavigate } from 'react-router-dom';
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
-
+import createUser from '../../Backend/Models/createUser';
 
 
 export default function CreateAccount() {
@@ -10,13 +10,17 @@ export default function CreateAccount() {
     const navigate = useNavigate();
 
     const [account, setAccount] = useState('Pending...');
+    const [details, setDetails] = useState([
+        name: createUser.name,
+        email: createUser.email,
+        password: createUser.password,
+    ]);
     function HandleCreateAccount() {
         setAccount('Account Created Successfully');
     }
     function HandleLogin() {
         navigate('/');
     }
-
 
     return (
         <>
