@@ -2,21 +2,28 @@
 import { useNavigate } from 'react-router-dom';
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
-import createUser from '../../Backend/Models/createUser';
 
 
 export default function CreateAccount() {
 
     const navigate = useNavigate();
 
+    const [details, setDetails] = useState({
+        name: '',
+        email: '',
+        password: '',
+        confirmPassword: ''
+    });
+
     const [account, setAccount] = useState('Pending...');
-    const [details, setDetails] = useState([
-        name: createUser.name,
-        email: createUser.email,
-        password: createUser.password,
-    ]);
+
+    function HandleChange(e) {
+        setDetails({ ...details, [e.target.name]: e.target.value });
+        
+    }
     function HandleCreateAccount() {
         setAccount('Account Created Successfully');
+        console.log(details);
     }
     function HandleLogin() {
         navigate('/');
@@ -35,15 +42,16 @@ export default function CreateAccount() {
                 <div className='flex h-96 w-full flex-col items-center justify-center bg-red-300'>
                     <div className='flex h-4/5 w-4/5 flex-col items-center justify-center gap-4 rounded-xl bg-green-300 px-4'>
 
-                        <input className='h-10 w-full rounded-lg border-2 border-solid border-cyan-500 px-4' placeholder='Enter Email' type='text'>
+                        <input className='h-10 w-full rounded-lg border-2 border-solid border-cyan-500 px-4' placeholder='Enter Username' name='name' value={details.name} onChange={HandleChange} type='text'>
                         </input>
 
-                        <input className='h-10 w-full rounded-lg border-2 border-solid border-cyan-500 px-4' placeholder='Enter Username' type='text'>
+                        <input className='h-10 w-full rounded-lg border-2 border-solid border-cyan-500 px-4' placeholder='Enter Email' name='email' value={details.email} onChange={HandleChange} type='text'>
                         </input>
 
-                        <input className='h-10 w-full rounded-lg border-2 border-solid border-cyan-500 px-4' placeholder='Enter Your Password' type='password'>
+                        <input className='h-10 w-full rounded-lg border-2 border-solid border-cyan-500 px-4' placeholder='Enter Your Password' name='password' value={details.password} onChange={HandleChange} type='password'>
                         </input>
-                        <input className='h-10 w-full rounded-lg border-2 border-solid border-cyan-500 px-4' placeholder='ReEnter Your Password' type='password'>
+
+                        <input className='h-10 w-full rounded-lg border-2 border-solid border-cyan-500 px-4' placeholder='ReEnter Your Password' name='confirmPassword' value={details.confirmPassword} onChange={HandleChange} type='password'>
                         </input>
 
 
