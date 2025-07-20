@@ -11,8 +11,7 @@ export default function CreateAccount() {
     const [details, setDetails] = useState({
         name: '',
         email: '',
-        password: '',
-        confirmPassword: ''
+        password: ''
     });
 
     const [account, setAccount] = useState('Pending...');
@@ -21,10 +20,34 @@ export default function CreateAccount() {
         setDetails({ ...details, [e.target.name]: e.target.value });
         
     }
-    function HandleCreateAccount() {
-        setAccount('Account Created Successfully');
-        console.log(details);
+
+    async function HandleCreateAccount() {
+        try {
+            const response = await fetch('http://localhost:5000/api/auth/new', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(details)
+            });
+
+            const data = await response.json();
+            
+            if (!response.ok) {
+                setAccount(data.error || 'Failed to create account');
+                console.error('Error creating account:', data);
+                return;
+            }
+
+            setAccount('Account Created Successfully');
+            console.log(data); // log response from server
+        } catch (err) {
+            setAccount('Server error');
+            console.error('Fetch error:', err);
+        }
     }
+
+
     function HandleLogin() {
         navigate('/');
     }
@@ -51,8 +74,8 @@ export default function CreateAccount() {
                         <input className='h-10 w-full rounded-lg border-2 border-solid border-cyan-500 px-4' placeholder='Enter Your Password' name='password' value={details.password} onChange={HandleChange} type='password'>
                         </input>
 
-                        <input className='h-10 w-full rounded-lg border-2 border-solid border-cyan-500 px-4' placeholder='ReEnter Your Password' name='confirmPassword' value={details.confirmPassword} onChange={HandleChange} type='password'>
-                        </input>
+                        {/*<input className='h-10 w-full rounded-lg border-2 border-solid border-cyan-500 px-4' placeholder='ReEnter Your Password' name='confirmPassword' value={details.confirmPassword} onChange={HandleChange} type='password'>*/}
+                        {/*</input>*/}
 
 
                         <div className='flex h-10 w-full items-center justify-around'>
