@@ -48,7 +48,7 @@ export default function CreateAccount() {
     }
 
 
-    function HandleLogin() {
+    async function HandleLogin() {
         navigate('/');
     }
 
