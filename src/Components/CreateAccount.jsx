@@ -18,10 +18,11 @@ export default function CreateAccount() {
 
     function HandleChange(e) {
         setDetails({ ...details, [e.target.name]: e.target.value });
-        
+
     }
 
-    async function HandleCreateAccount() {
+    async function HandleCreateAccount(e) {
+        e.preventDefault();
         try {
             const response = await fetch('http://localhost:5000/api/auth/new', {
                 method: 'POST',
@@ -32,23 +33,18 @@ export default function CreateAccount() {
             });
 
             const data = await response.json();
-            
+
             if (!response.ok) {
                 setAccount(data.error || 'Failed to create account');
-                console.error('Error creating account:', data);
                 return;
             }
-
             setAccount('Account Created Successfully');
-            console.log(data); // log response from server
-        } catch (err) {
-            setAccount('Server error');
-            console.error('Fetch error:', err);
+        } catch (error) {
+            setAccount('Server error', error);
         }
     }
-
-
-    async function HandleLogin() {
+    //Redirect to the login page after account creation
+    function HandleLogin() {
         navigate('/');
     }
 
@@ -64,31 +60,28 @@ export default function CreateAccount() {
             >
                 <div className='flex h-96 w-full flex-col items-center justify-center bg-red-300'>
                     <div className='flex h-4/5 w-4/5 flex-col items-center justify-center gap-4 rounded-xl bg-green-300 px-4'>
-
+                        {/*Username Input*/}
                         <input className='h-10 w-full rounded-lg border-2 border-solid border-cyan-500 px-4' placeholder='Enter Username' name='name' value={details.name} onChange={HandleChange} type='text'>
                         </input>
-
+                        {/*User Email Input*/}
                         <input className='h-10 w-full rounded-lg border-2 border-solid border-cyan-500 px-4' placeholder='Enter Email' name='email' value={details.email} onChange={HandleChange} type='text'>
                         </input>
-
+                        {/*User Password Input*/}
                         <input className='h-10 w-full rounded-lg border-2 border-solid border-cyan-500 px-4' placeholder='Enter Your Password' name='password' value={details.password} onChange={HandleChange} type='password'>
                         </input>
-
-                        {/*<input className='h-10 w-full rounded-lg border-2 border-solid border-cyan-500 px-4' placeholder='ReEnter Your Password' name='confirmPassword' value={details.confirmPassword} onChange={HandleChange} type='password'>*/}
-                        {/*</input>*/}
-
 
                         <div className='flex h-10 w-full items-center justify-around'>
                             <button className='h-8 w-fit rounded-sm bg-green-600 px-4 text-lg overflow-hidden' type='submit' onClick={HandleCreateAccount}>
                                 Create Account
                             </button>
-                            {/*Enable this button when account is created*/}
+
                             <button className=' h-8 w-fit rounded-sm bg-green-600 px-4 text-lg overflow-hidden' type='submit' onClick={HandleLogin}>
                                 Back to Login
                             </button>
-                            {/*Enable this button when account is created*/}
+
                         </div>
                     </div>
+                    {/*Message Box Show status wether user login or not*/}
                     <div className='my-2 flex h-10 w-4/5 items-center justify-center rounded-full border-2 border-dashed border-black bg-cyan-500 text-lg font-bold'>{account}
                     </div>
 

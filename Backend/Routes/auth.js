@@ -3,8 +3,9 @@ import user from '../Models/createUser.js';
 import ExpressValidation from '../Verifecation/Expressvalidation.js';
 import VerifyPass from '../Verifecation/Verifylogin.js';
 import { validationResult } from 'express-validator';
-import { hashPassword, comparePassword } from '../Utils/Hashing.js';
-//import { generateToken } from '../Utils/Token.js'; // You must ensure this function is working
+import jwt from 'jsonwebtoken';
+import { JWT_KEY } from '../Utils/jsontokens.js'
+import bcrypt from 'bcrypt'
 
 const router = express.Router();
 
@@ -24,15 +25,18 @@ router.post('/new', ExpressValidation, async (req, res) => {
         if (existingUser) {
             return res.status(409).json({ error: 'User already exists' });
         }
-
-        const hashedPassword = await hashPassword(password);
+        const salt = await bcrypt.genSalt(10);
+        const hashed = await bcrypt.hash(password, salt);
 
         const newUser = await user.create({
             name,
             email,
-            password: hashedPassword
+            password: hashed
         });
-
+        await newUser.save();
+        const data = { newUser: { id: newUser.id } };
+        const jwtToken = jwt.sign(data, JWT_KEY, { expiresIn: '1h' });
+        res.status(201).json({ success: true, message: "Authentication Page", jwtToken });
         return res.status(201).json({
             message: 'User created successfully',
             user: {
@@ -65,13 +69,14 @@ router.post('/login', VerifyPass, async (req, res) => {
             return res.status(404).json({ error: 'User not found' });
         }
 
-        const isMatch = await comparePassword(password, userFound.password);
+        const isMatch = await bcrypt.compare(password, userFound.password);
         if (!isMatch) {
             return res.status(401).json({ error: 'Invalid password' });
         }
 
-        // Generate JWT token
-        //const token = generateToken(userFound._id); // Assuming you generate token using user ID
+        const data = { userFound: { id: userFound.id } };
+        const UserToken = jwt.sign(data, JWT_KEY);
+        res.json({ UserToken });
 
         return res.status(200).json({
             message: 'Login successful',
@@ -80,7 +85,7 @@ router.post('/login', VerifyPass, async (req, res) => {
                 name: userFound.name,
                 email: userFound.email
             },
-           
+
         });
 
     } catch (err) {
