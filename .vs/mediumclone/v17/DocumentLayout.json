@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend\\Routes\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\Utils\\jsontokens.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend\\Utils\\jsontokens.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\Models\\createUser.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend\\Models\\createUser.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\Verifecation\\Verifylogin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend\\Verifecation\\Verifylogin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\Utils\\jsontokens.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend\\Utils\\jsontokens.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\.env.local||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -62,25 +62,24 @@
               "RelativeToolTip": "Backend\\.env.local",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
               "Icon": "cb4a8fc6-efe7-424a-b611-23adf22b568e.000041|",
-              "WhenOpened": "2025-07-22T19:49:46.226Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T19:49:46.226Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "jsontokens.js",
               "DocumentMoniker": "C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\Utils\\jsontokens.js",
               "RelativeDocumentMoniker": "Backend\\Utils\\jsontokens.js",
               "ToolTip": "C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\Utils\\jsontokens.js",
               "RelativeToolTip": "Backend\\Utils\\jsontokens.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-07-22T19:49:05.026Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Verifylogin.js",
               "DocumentMoniker": "C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\Verifecation\\Verifylogin.js",
               "RelativeDocumentMoniker": "Backend\\Verifecation\\Verifylogin.js",
@@ -88,12 +87,11 @@
               "RelativeToolTip": "Backend\\Verifecation\\Verifylogin.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-22T19:39:26.37Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T19:39:26.37Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Expressvalidation.js",
               "DocumentMoniker": "C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\Verifecation\\Expressvalidation.js",
               "RelativeDocumentMoniker": "Backend\\Verifecation\\Expressvalidation.js",
@@ -101,12 +99,11 @@
               "RelativeToolTip": "Backend\\Verifecation\\Expressvalidation.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-22T19:39:15.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T19:39:15.106Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "createUser.js",
               "DocumentMoniker": "C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\Models\\createUser.js",
               "RelativeDocumentMoniker": "Backend\\Models\\createUser.js",
@@ -125,7 +122,7 @@
               "RelativeDocumentMoniker": "Backend\\Routes\\auth.js",
               "ToolTip": "C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\Routes\\auth.js",
               "RelativeToolTip": "Backend\\Routes\\auth.js",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAkwGIAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-07-22T17:24:11.711Z",
               "EditorCaption": ""
@@ -140,8 +137,7 @@
               "RelativeToolTip": "src\\App.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-22T17:09:47.99Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T17:09:47.99Z"
             },
             {
               "$type": "Document",
@@ -153,8 +149,7 @@
               "RelativeToolTip": "src\\Components\\CreateAccount.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-22T17:06:49.698Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T17:06:49.698Z"
             },
             {
               "$type": "Document",
@@ -166,8 +161,7 @@
               "RelativeToolTip": "src\\Components\\Login.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-22T17:01:29.95Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T17:01:29.95Z"
             },
             {
               "$type": "Document",
@@ -179,8 +173,7 @@
               "RelativeToolTip": "src\\Components\\Navbar.jsx",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-22T16:55:05.084Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-22T16:55:05.084Z"
             }
           ]
         }
