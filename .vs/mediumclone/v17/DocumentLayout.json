@@ -3,44 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\acera\\Desktop\\mediumclone\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\Routes\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend\\Routes\\auth.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\mediumclone\\src\\Components\\Navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Components\\Navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\Utils\\jsontokens.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend\\Utils\\jsontokens.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\Models\\createUser.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend\\Models\\createUser.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\Verifecation\\Expressvalidation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend\\Verifecation\\Expressvalidation.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\Verifecation\\Verifylogin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend\\Verifecation\\Verifylogin.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\.env.local||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Backend\\.env.local||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\mediumclone\\src\\Components\\CreateAccount.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Components\\CreateAccount.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\mediumclone\\src\\Components\\Login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Components\\Login.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\mediumclone\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\mediumclone\\src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\acera\\Desktop\\mediumclone\\src\\Components\\Navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\Components\\Navbar.jsx||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,130 +22,46 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": ".env.local",
-              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\.env.local",
-              "RelativeDocumentMoniker": "Backend\\.env.local",
-              "ToolTip": "C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\.env.local",
-              "RelativeToolTip": "Backend\\.env.local",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
-              "Icon": "cb4a8fc6-efe7-424a-b611-23adf22b568e.000041|",
-              "WhenOpened": "2025-07-22T19:49:46.226Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "jsontokens.js",
-              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\Utils\\jsontokens.js",
-              "RelativeDocumentMoniker": "Backend\\Utils\\jsontokens.js",
-              "ToolTip": "C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\Utils\\jsontokens.js",
-              "RelativeToolTip": "Backend\\Utils\\jsontokens.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-22T19:49:05.026Z",
+              "Title": "index.html",
+              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\mediumclone\\index.html",
+              "RelativeDocumentMoniker": "index.html",
+              "ToolTip": "C:\\Users\\acera\\Desktop\\mediumclone\\index.html",
+              "RelativeToolTip": "index.html",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAQAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-07-25T17:08:34.375Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Verifylogin.js",
-              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\Verifecation\\Verifylogin.js",
-              "RelativeDocumentMoniker": "Backend\\Verifecation\\Verifylogin.js",
-              "ToolTip": "C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\Verifecation\\Verifylogin.js",
-              "RelativeToolTip": "Backend\\Verifecation\\Verifylogin.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-22T19:39:26.37Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Expressvalidation.js",
-              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\Verifecation\\Expressvalidation.js",
-              "RelativeDocumentMoniker": "Backend\\Verifecation\\Expressvalidation.js",
-              "ToolTip": "C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\Verifecation\\Expressvalidation.js",
-              "RelativeToolTip": "Backend\\Verifecation\\Expressvalidation.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAwAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-22T19:39:15.106Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "createUser.js",
-              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\Models\\createUser.js",
-              "RelativeDocumentMoniker": "Backend\\Models\\createUser.js",
-              "ToolTip": "C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\Models\\createUser.js",
-              "RelativeToolTip": "Backend\\Models\\createUser.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-22T19:38:55.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "auth.js",
-              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\Routes\\auth.js",
-              "RelativeDocumentMoniker": "Backend\\Routes\\auth.js",
-              "ToolTip": "C:\\Users\\acera\\Desktop\\mediumclone\\Backend\\Routes\\auth.js",
-              "RelativeToolTip": "Backend\\Routes\\auth.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2025-07-22T17:24:11.711Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
               "Title": "App.jsx",
               "DocumentMoniker": "C:\\Users\\acera\\Desktop\\mediumclone\\src\\App.jsx",
               "RelativeDocumentMoniker": "src\\App.jsx",
               "ToolTip": "C:\\Users\\acera\\Desktop\\mediumclone\\src\\App.jsx",
               "RelativeToolTip": "src\\App.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-22T17:09:47.99Z"
+              "WhenOpened": "2025-07-25T16:46:04.812Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CreateAccount.jsx",
-              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\mediumclone\\src\\Components\\CreateAccount.jsx",
-              "RelativeDocumentMoniker": "src\\Components\\CreateAccount.jsx",
-              "ToolTip": "C:\\Users\\acera\\Desktop\\mediumclone\\src\\Components\\CreateAccount.jsx",
-              "RelativeToolTip": "src\\Components\\CreateAccount.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-22T17:06:49.698Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Login.jsx",
-              "DocumentMoniker": "C:\\Users\\acera\\Desktop\\mediumclone\\src\\Components\\Login.jsx",
-              "RelativeDocumentMoniker": "src\\Components\\Login.jsx",
-              "ToolTip": "C:\\Users\\acera\\Desktop\\mediumclone\\src\\Components\\Login.jsx",
-              "RelativeToolTip": "src\\Components\\Login.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-22T17:01:29.95Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "Navbar.jsx",
               "DocumentMoniker": "C:\\Users\\acera\\Desktop\\mediumclone\\src\\Components\\Navbar.jsx",
               "RelativeDocumentMoniker": "src\\Components\\Navbar.jsx",
               "ToolTip": "C:\\Users\\acera\\Desktop\\mediumclone\\src\\Components\\Navbar.jsx",
               "RelativeToolTip": "src\\Components\\Navbar.jsx",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003663|",
-              "WhenOpened": "2025-07-22T16:55:05.084Z"
+              "WhenOpened": "2025-07-24T19:01:29.205Z",
+              "EditorCaption": ""
             }
           ]
         }
